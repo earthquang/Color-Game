@@ -1,0 +1,115 @@
+html {
+	height: 100%;
+}
+body {
+	background-color: #232323;
+	text-align: center;
+	font-family: "Josefin Sans";
+	color: white;
+	margin: 0;
+}
+#header {
+	width: 100%;
+	background: steelblue;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+#header h1 {
+	margin-bottom: 0;
+	font-weight: 600;
+	font-size: 3.8em;
+	text-shadow: 0px 4px 3px rgba(40, 40, 40, 0.3),
+				 0px 8px 10px rgba(40, 40, 40, 0.2),
+				 0px 16px 20px rgba(40, 40, 40, 0.1);
+}
+#header h6 {
+	min-width: 360px;
+	width: 30%;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: 400;
+	font-size: 1.2em;
+	border-radius: 80px;
+	color: white;
+	background: rgba(255, 255, 255, .5);
+	font-size: 2.5em;
+	font-weight: 400;
+	padding-bottom: 10px;
+	line-height: 1.15;
+	text-shadow: 0 0 3px rgba(80, 80, 80, 0.1);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+#correctColorDisp {
+	text-transform: uppercase;
+}
+#correctColorDisp {
+	font-size: 1em;
+}
+.guessThis {
+	font-size: .5em;
+	padding-bottom: 20px;
+}
+#controls {
+	width: 100%;
+	background-color: white;
+	color: steelblue;
+}
+button {
+	font-family: "Josefin Sans";
+	font-weight: 600;
+	border: none;
+	background: none;
+	color: steelblue;
+	font-size: inherit;
+	outline: none;
+	transition: all .3s;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	padding-top: 4px;
+	text-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+span#result {
+	text-align: center;
+	display: inline-block;
+	width: 20%;
+}
+button:nth-of-type(2) {
+	position: relative;
+	left: 4px;
+}
+button:hover {
+	color: white;
+	background: steelblue;
+	text-shadow: 0 0 3px rgba(100, 100, 100, 0.1);
+}
+.selected {
+	background: steelblue;
+	color: white;
+	text-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+}
+#container {
+	margin: 20px auto;
+	max-width: 540px;
+	min-width: 360px;
+}
+.colorBox {
+	width: 30%;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 20%;
+	box-shadow: 0 0 4px rgba (0, 0, 0, 0.5);
+	transition: background .6s;
+	-webkit-transition: background .6s;
+	-moz-transition: background .6s;
+}
+#footer {
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: -2px;
+	font-size: .85em;
+	font-weight: 100;
+}

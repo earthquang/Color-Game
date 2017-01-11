@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Amazing  Colour Game</title>
+	<link rel="stylesheet" type="text/css" href="colorGame.css">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,400,600" rel="stylesheet">
+</head>
+<body>
+
+<div id="header">
+	<h1>The Amazing <span id="logo">Colour</span> Game</h1>
+	<h6>
+		<span class="guessThis">Guess this color:</span>
+		<br>
+		<span id="correctColorDisp"></span>
+	</h6>
+</div>
+
+<div id="controls">
+	<button id="newGame">New Colors</button>
+	<span id="result"></span>
+	<button class="modeButton">Easy</button>
+	<button class="modeButton selected">Hard</button>
+</div>
+
+<div id="container">
+	<div class="colorBox"></div>
+	<div class="colorBox"></div>
+	<div class="colorBox"></div>
+	<div class="colorBox"></div>
+	<div class="colorBox"></div>
+	<div class="colorBox"></div>
+</div>
+
+<audio autoplay loop>
+	<source src="audio/Background_Music.mp3">
+</audio>
+<audio id="clickSound">
+	<source src="audio/Click.mp3">
+</audio>
+<audio id="wrongSound">
+<source src="audio/Error.mp3">
+</audio>
+<audio id="correctSound">
+<source src="audio/Correct.mp3">
+</audio>
+
+
+<script type="text/javascript" src="colorGame.js"></script>
+</body>
+</html>
